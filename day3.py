@@ -132,4 +132,59 @@ monthly_expenses = float(input())
 savings = monthly_salary - monthly_expenses
 print(savings)
 
+#simple intrest calculation
+# principal_amount p, interest_rate i, time_period t
+p = int(input())
+i = float(input())
+t = float(input())
+simple_intrest = (p*i*t)/100
+print(simple_intrest)
 
+#calculate complete weeks and remaining days
+total_days = int(input())
+complete_weeks = total_days // 7
+remaining_days = total_days % 7
+print(complete_weeks)
+print(remaining_days)
+
+# total ticket cost
+ticket_price = float(input())
+number_of_tickets = int(input())
+total_cost = (ticket_price * number_of_tickets)
+print(total_cost)
+
+# final product price
+product_price = float(input())
+gst = float(input())
+final_price = product_price * (1 + (gst/100))
+print(final_price)
+
+# extracting  last two digits
+transaction_id = int(input())
+print(transaction_id % 100)
+
+#number of buses required 
+total_students = int(input())
+bus_capacity = int(input())
+no_of_buses = (total_students / bus_capacity)
+
+"""total earnongs
+number_of_deliveries nd
+payment_per_delivery pd
+ """
+nd = int(input())
+pd = float(input())
+print(nd * pd)
+
+# remaining storage space
+total_storage = float(input())
+file_size = float(input())
+number_of_files = float(input())
+print(total_storage - (file_size * number_of_files))
+
+# many bottles each person receives
+total_bottles = int(input())
+number_of_people = int(input())
+bottles_recieve = total_bottles // number_of_people
+bottles_remain = total_bottles % number_of_people
+print(bottles_recieve , bottles_remain)

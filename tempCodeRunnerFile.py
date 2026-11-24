@@ -1,3 +1,5 @@
-a = 2
-b = 3
-print(a//b)
+total_chocolates = int(input())
+total_students = int(input())
+per_student = (total_chocolates // total_students)
+remain = (total_chocolates % total_students)
+print(per_student,remain)

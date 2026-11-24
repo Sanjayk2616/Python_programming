@@ -128,4 +128,26 @@ print(type(b))
 #none
 a = None
 print(type(a))
+
+
+""" 
+operators
+an operator is a symbol which is used to perform a task
+
+Types of operators
+1)Arthimetic operators
+  + -> addition
+  - -> subtraction
+  * -> multiplication
+  % -> remainder(modulus)
+  / -> division(float)
+  // -> floor divisor(int)
+  ** -> exponent(power of)
+
+
+
+"""
+a = 2
+b = 3
+print(a//b)
  

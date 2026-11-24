@@ -125,3 +125,11 @@ total_seconds = int(input())
 minutes = total_seconds / 60
 remaining_seconds = total_seconds % 60
 print(minutes,remaining_seconds)
+
+#monthly savings
+monthly_salary = float(input())
+monthly_expenses = float(input())
+savings = monthly_salary - monthly_expenses
+print(savings)
+
+

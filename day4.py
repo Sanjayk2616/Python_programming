@@ -21,6 +21,29 @@
     F F -> F
 
    not  returns vice versa of the result
+
+   assignment operators :- these are used to assign or update value of a  variable
+   = -> assign
+   += -> add & assign
+   -= -> subtract & assign
+   *= -> multiply & assign
+   **= -> exponentiate & assign
+   /= -> divide & assign
+   //= -> floor divide & assign
+   %= -> modulus & assign
+
+   membership operators
+   it checks if a value exists within a sequence (like a list , string , tuple)
+   in - returns true if the value exists in the sequence
+   not in - returns true if the value doesn't exists in the sequence 
+
+   identity operators :- are used to check whether two variables refer to the same object in memory
+   is - returns true if both refer to the same object
+   is not - returns true if theyrefer to different objects
+
+
+
+
 """
 #take two inputs as a,b is 20,30 perform all comparision operators
 a = 20
@@ -118,3 +141,91 @@ num1 = 25
 num2 = 40
 print(num1 != num2)
 print(num2 > 30)
+
+#assignment operators
+#q
+x = 5
+print(x)
+x += 3
+print(x)
+x -= 3
+print(x)
+x *= 3
+print(x)
+x /= 3
+print(x)
+x **= 3
+print(x)
+x //= 3
+print(x)
+x %= 3
+print(x)
+
+#membership operators
+l = [5,6,7,8,9]
+print(5 in l)
+print(10 in l)
+print(20 not in l)
+print(5 not in l)
+
+name = "Sanjay"
+print ( 'x' in name)
+print( 'a' not in name)
+print('S' in name)
+
+#identity operators
+a = [1,2,3]
+b = 1
+c = a #reassigning
+d = [1,2,3]
+print(a is b)
+print(a == d)
+print(a is c)
+print(a is  d)
+print(a is not c)
+print (a is not d)
+
+
+#questions
+#q1
+s = "Python"
+print('a' in s)
+
+#q2
+list = [1,3,5,7,9]
+print(5 in list)
+
+#q3
+course = ["python","c","c++"]
+print('java' in course)
+
+#q4
+tuple = (5,10,15,20)
+print(10 in tuple)
+
+#q5
+colors = ["blue","green","yellow"]
+print("red" in colors)
+
+#q6
+a = 5
+b = 5
+print(a is b)
+
+#q7
+a = [1,2,3]
+b = 1
+print(a is b)
+
+#q8
+a = [1,2]
+b = [1,2]
+print(a is b)
+
+#q9
+a = int(input())
+print(a > 10 and a < 50)
+
+#q10
+age = int(input())
+print(age >= 18 and age < 60)

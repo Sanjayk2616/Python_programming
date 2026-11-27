@@ -41,7 +41,15 @@
    is - returns true if both refer to the same object
    is not - returns true if theyrefer to different objects
 
-
+   Bitwise Operators
+   Bitwise operators perform operations on the binary representation of numbers (0 and 1)
+   AND  &  perform bitwise and   both are 1 -> 1
+   OR   |  perform bitwise or    atleast 1  -> 1
+   XOR  ^  performs bitwise xor  different  -> 1
+   NOT  ~  performs bitwise not  
+   Left Shift << input * (2 ^ n)
+   right shift >> input // (2 ^ n) 
+    
 
 
 """
@@ -229,3 +237,16 @@ print(a > 10 and a < 50)
 #q10
 age = int(input())
 print(age >= 18 and age < 60)
+
+#bitwise operators
+x = 6
+y = 2
+print(x & y)
+print(x | y)
+print(x ^ y)
+print(~x)
+print(~y)
+
+
+
+

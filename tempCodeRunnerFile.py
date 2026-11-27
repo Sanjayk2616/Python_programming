@@ -1,7 +1,4 @@
-x = 6
-y = 2
-print(x & y)
-print(x | y)
-print(x ^ y)
-print(~x)
-print(~y)
+a , b = 10 , 20
+print(a & b)
+print(a | b)
+print(a ^ b)
